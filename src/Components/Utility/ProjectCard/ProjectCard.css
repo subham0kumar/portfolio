@@ -3,6 +3,7 @@
   justify-content: center;
   user-select: none;
   max-width: 700px;
+  min-height: 500px;
   margin: 2rem auto;
   border: 1px solid #ffffff22;
   background-color: #282c3439;
@@ -33,7 +34,7 @@
     }
     .description {
       margin: 0.5rem 0;
-      color: #a89ec9;
+      color: white;
     }
     .tokenInfo {
       display: flex;
@@ -42,7 +43,7 @@
       .price {
         display: flex;
         align-items: center;
-        color: #ee83e5;
+        color: white;
         font-weight: 700;
         ins {
           margin-left: -0.3rem;
@@ -52,7 +53,7 @@
       .duration {
         display: flex;
         align-items: center;
-        color: #a89ec9;
+        color: white;
         margin-right: 0.2rem;
         ins {
           margin: 0.5rem;
