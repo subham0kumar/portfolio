@@ -20,7 +20,7 @@ const AboutSection = () => {
   ];
 
   return (
-      <div className="mt-[6rem] h-[100vh] flex justify-center">
+      <div className="mt-[6rem] h-fit flex justify-center">
         <div className="text-center w-[80vw]">
           <span className="text-[6rem] font-acorn_sb ">About Me</span>
           <div className="flex items-start justify-around">

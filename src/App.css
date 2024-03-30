@@ -1,5 +1,5 @@
 .underAnimate {
-  background-image: linear-gradient(90deg, #56719A, #56719A);
+  background: linear-gradient(90deg, #56719A, #56719A);
   background-size: 70% 3px;
   background-repeat: no-repeat;
   background-position: bottom;

@@ -1,9 +1,8 @@
 import React from "react";
-import './BG-moving.css'
 const BGmoving = () => {
   return (
     <div id="bg-wrap absolute -z-10" className="shadow">
-      <svg viewBox="0 0 100 500" preserveAspectRatio="xMidYMid slice">
+      <svg viewBox="0 0 100 280" preserveAspectRatio="xMidYMid slice">
         <defs>
           <radialGradient
             id="Gradient1"

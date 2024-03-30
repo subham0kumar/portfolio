@@ -1,6 +1,7 @@
 import "./App.css";
 import AboutSection from "./Components/AboutSection/AboutSection";
 import ContactSection from "./Components/ContactSection/ContactSection";
+import Experience from "./Components/ExperienceSection/Experience";
 import Introduction from "./Components/Introduction/Introduction";
 import Navbar from "./Components/Navbar/Navbar";
 import ProjectsSection from "./Components/ProjectsField/ProjectsSection";
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <Introduction />
         <AboutSection />
+        <Experience />
         <ProjectsSection />
         <ContactSection />
       </div>

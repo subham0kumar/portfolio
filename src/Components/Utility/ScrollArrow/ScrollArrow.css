@@ -6,17 +6,17 @@
   position: relative;
   animation: down 1.5s infinite;
   -webkit-animation: down 1.5s infinite;
-  &::before {
-    content: "";
-    position: absolute;
-    top: 15px;
-    left: 18px;
-    width: 18px;
-    height: 18px;
-    border-left: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-    transform: rotate(-45deg);
-  }
+}
+.scroll::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 18px;
+  width: 18px;
+  height: 18px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(-45deg);
 }
 
 @keyframes down {
