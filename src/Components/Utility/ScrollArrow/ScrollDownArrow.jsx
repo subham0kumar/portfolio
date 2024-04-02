@@ -3,7 +3,7 @@ import "./ScrollArrow.css";
 
 const ScrollDownArrow = () => {
   return (
-    <div className="w-100 flex items-center justify-center">
+    <div className="animate-bounce flex items-center justify-center">
       <div className="scroll"></div>
     </div>
   );
