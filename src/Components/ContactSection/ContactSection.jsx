@@ -47,6 +47,7 @@ const ContactSection = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className={`h-10 ${inputStyle}`}
+              autoComplete="off"
             />
             <label
               htmlFor="email"
