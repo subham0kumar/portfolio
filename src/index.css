@@ -28,7 +28,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-image: linear-gradient(#6bb0a8, #c78a3a,#6868af, #5B5B38, #233831);
+  background-image: linear-gradient(#6bb0a8, #c78a3a,#6868af, #5B5B38, #6bb0a8, #c78a3a);
   background-repeat: no-repeat;
 
   font-synthesis: none;

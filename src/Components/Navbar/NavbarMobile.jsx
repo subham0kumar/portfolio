@@ -4,10 +4,10 @@ import "./NavbarMobile.css";
 function NavbarMobile() {
   return (
     <div className="md:hidden flex flex-col absolute">
-      <label className="hamburger flex flex-col gap-2 w-max absolute top-2 left-2 z-10">
+      <label className="hamburger flex flex-col gap-2 w-max absolute top-3 left-4 z-50">
         <input type="checkbox" />
       </label>
-      <sidebar className="sidebar">
+      <section className="sidebar">
         <nav className="flex flex-col items-start m-2 max-w-max">
           <button
             onClick={() => {
@@ -49,7 +49,7 @@ function NavbarMobile() {
             Contact
           </button>
         </nav>
-      </sidebar>
+      </section>
     </div>
   );
 }

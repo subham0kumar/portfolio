@@ -3,11 +3,16 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
+  const [bgGradient, setBgGradient] = useState(
+    "bg-gradient-to-r from-white to-white"
+  );
   const bgChange = () => {
     if (window.scrollY >= 80) {
       setNavbar(true);
+      setBgGradient("bg-gradient-to-r from-[#56719A] to-[#56719A]");
     } else {
       setNavbar(false);
+      setBgGradient("bg-gradient-to-r from-white to-white");
     }
   };
   window.addEventListener("scroll", bgChange);
@@ -16,10 +21,12 @@ const Navbar = () => {
       <nav className="nav-container text-center m-4 w-[45vw] fixed top-0 z-50">
         <ul
           className={`flex items-center justify-between font-poppins font-semibold tracking-wide rounded-[32px] bg-[#cccccc] ${
-            navbar ? " bg-opacity-[95%]" : "bg-opacity-0"
+            navbar
+              ? "bg-opacity-[95%] text-[#56719A]"
+              : "bg-opacity-0 text-white"
           } transition-all ease duration-300`}
         >
-          <a className="underAnimate">
+          <a className={`underAnimate ${bgGradient}`}>
             <li>
               <button
                 onClick={() => {
@@ -30,7 +37,7 @@ const Navbar = () => {
               </button>
             </li>
           </a>
-          <a className="underAnimate">
+          <a className={`underAnimate ${bgGradient}`}>
             <li>
               <button
                 onClick={() => {
@@ -41,7 +48,7 @@ const Navbar = () => {
               </button>
             </li>
           </a>
-          <a className="underAnimate">
+          <a className={`underAnimate ${bgGradient}`}>
             <li>
               <button
                 onClick={() => {
@@ -52,7 +59,7 @@ const Navbar = () => {
               </button>
             </li>
           </a>
-          <a className="underAnimate">
+          <a className={`underAnimate ${bgGradient}`}>
             <li>
               <button
                 onClick={() => {
@@ -63,7 +70,7 @@ const Navbar = () => {
               </button>
             </li>
           </a>
-          <a className="underAnimate">
+          <a className={`underAnimate ${bgGradient}`}>
             <li>
               <button
                 onClick={() => {

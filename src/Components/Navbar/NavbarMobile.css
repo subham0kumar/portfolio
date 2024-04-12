@@ -9,13 +9,13 @@ body {
 }
 
 :root {
-  --bar-width: 60px;
-  --bar-height: 8px;
-  --hamburger-gap: 6px;
+  --bar-width: 35px;
+  --bar-height: 4px;
+  --hamburger-gap: 2px;
   --foreground: white;
   --background: #333;
   --animation-timming: 200ms ease-in-out;
-  --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+  --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2 + 4px);
 }
 
 .hamburger::before,
@@ -48,13 +48,13 @@ body {
 .hamburger:has(input:checked)::before {
   rotate: 45deg;
   width: var(--x-width);
-  translate: 0 -2px;
+  translate: 0 2px;
 }
 
 .hamburger:has(input:checked)::after {
   rotate: -45deg;
   width: var(--x-width);
-  translate: 0 2px;
+  translate: 0 -2px;
 }
 
 .hamburger input:checked {
@@ -65,10 +65,10 @@ body {
 .sidebar {
   transition: translate var(--animation-timming);
   translate: -100%;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1rem;
   padding-top: calc(var(--hamburger-height) + 1.5rem);
   background-color: black;
-  max-width: 10rem;
+  min-width: 15rem;
   min-height: 100vh;
   color: var(--foreground);
 }

@@ -6,22 +6,24 @@ import Introduction from "./Components/Introduction/Introduction";
 import Navbar from "./Components/Navbar/Navbar";
 import NavbarMobile from "./Components/Navbar/NavbarMobile";
 import ProjectsSection from "./Components/ProjectsField/ProjectsSection";
-import BGmoving from "./Components/Utility/Backgroud/BG-moving";
+import WaveDivider from "./Components/Utility/Divider1/WaveDivider";
 
 function App() {
   return (
-    <div className="relative">
-      <div className="md:block hidden"><BGmoving /></div>
-      <div className="absolute top-0 left-0">
-        <Navbar />
-        <NavbarMobile />
-        <Introduction />
+    <>
+      <NavbarMobile />
+      <Navbar />
+      <div>
+        <div>
+          <Introduction />
+          <WaveDivider />
+        </div>
         <AboutSection />
         <Experience />
         <ProjectsSection />
         <ContactSection />
       </div>
-    </div>
+    </>
   );
 }
 

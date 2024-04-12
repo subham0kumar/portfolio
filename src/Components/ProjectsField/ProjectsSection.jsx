@@ -47,8 +47,8 @@ const ProjectsSection = () => {
   return (
     <div className="mt-[6rem] h-fit flex justify-center">
       <div className="text-center w-[80vw]">
-        <span className="text-[6rem] font-acorn_sb ">My Projects</span>
-        <div className="grid grid-cols-2 items-start justify-center gap-10">
+        <span className="md:text-[6rem] text-[4rem] font-acorn_sb ">Projects</span>
+        <div className="grid md:grid-cols-2 items-start justify-center gap-10">
           {projects.map((project, i) => (
             <ProjectCard
               title={project.title}
