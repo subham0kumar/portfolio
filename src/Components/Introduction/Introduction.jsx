@@ -43,9 +43,9 @@ const Introduction = () => {
               </h3>
 
               {/* ______________Links_______________ */}
-              <span className="flex items-start md:justify-start justify-between md:space-x-14 mt-5 cursor-pointer">
+              <span className="flex items-start md:justify-start justify-between md:space-x-14 mt-5 cursor-pointer z-50">
                 {/* ___________Download resume______________ */}
-                <div className="flex flex-col items-center justify-center space-y-2 font-acorn_l group">
+                <div className="flex flex-col items-center justify-center space-y-2 font-acorn_l active:scale-95 group">
                   <button id="resumeDownloadBtn" onClick={downloadResume}>
                     <img src="src\assets\resume.png" alt="" width={"40px"} />
                   </button>

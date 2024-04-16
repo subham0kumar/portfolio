@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import NavbarMobile from "./Components/Navbar/NavbarMobile";
 import ProjectsSection from "./Components/ProjectsField/ProjectsSection";
 import WaveDivider from "./Components/Utility/Divider1/WaveDivider";
+import Footer from "./Components/Utility/Footer/Footer";
 
 function App() {
   return (
@@ -16,13 +17,14 @@ function App() {
       <div>
         <div>
           <Introduction />
-          <WaveDivider />
+          <WaveDivider className='sm:hidden' />
         </div>
         <AboutSection />
         <Experience />
         <ProjectsSection />
         <ContactSection />
       </div>
+      <Footer />
     </>
   );
 }

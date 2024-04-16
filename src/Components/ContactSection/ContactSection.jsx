@@ -117,12 +117,14 @@ const ContactSection = () => {
 
           {/* ______________Submit Button__________________ */}
           <span className="font-bold w-fit text-center mx-[10px] my-[15px]">
-            <input
+            <button
               type="submit"
               id="submitBtn"
               onClick={handleSubmit}
               className="px-[20px] py-[10px] rounded-[6px] border-2 border-white text-white bg-black transition-all ease duration-150 hover:-translate-y-1 active:scale-95"
-            />
+            >
+              Submit
+            </button>
           </span>
         </form>
       </div>

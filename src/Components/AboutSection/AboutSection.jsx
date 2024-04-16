@@ -26,7 +26,7 @@ const AboutSection = () => {
           <span className="text-[4rem] md:text-[6rem] font-acorn_sb ">
             About Me
           </span>
-          <div className="flex flex-col md:flex-row md:items-start justify-around items-center">
+          <div className="flex md:flex-row flex-col-reverse md:items-start justify-around items-center">
             <section className="md:w-1/2 text-justify font-poppins text-lg">
               <span className="font-acorn_sb tracking-widest md:text-4xl text-3xl">
                 Get to Know ME!

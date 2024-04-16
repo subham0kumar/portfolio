@@ -17,7 +17,7 @@ const Navbar = () => {
   };
   window.addEventListener("scroll", bgChange);
   return (
-    <div className="hidden md:flex justify-center">
+    <div className="hidden lg:flex justify-center">
       <nav className="nav-container text-center m-4 w-[45vw] fixed top-0 z-50">
         <ul
           className={`flex items-center justify-between font-poppins font-semibold tracking-wide rounded-[32px] bg-[#cccccc] ${
