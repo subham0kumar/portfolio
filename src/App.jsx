@@ -6,18 +6,20 @@ import Introduction from "./Components/Introduction/Introduction";
 import Navbar from "./Components/Navbar/Navbar";
 import NavbarMobile from "./Components/Navbar/NavbarMobile";
 import ProjectsSection from "./Components/ProjectsField/ProjectsSection";
+import Cursor from "./Components/Utility/CustomCursor/Cursor";
 import WaveDivider from "./Components/Utility/Divider1/WaveDivider";
 import Footer from "./Components/Utility/Footer/Footer";
 
 function App() {
   return (
     <>
+      {/* <Cursor /> */}
       <NavbarMobile />
       <Navbar />
       <div>
         <div>
           <Introduction />
-          <WaveDivider className='sm:hidden' />
+          <WaveDivider className="sm:hidden" />
         </div>
         <AboutSection />
         <Experience />
