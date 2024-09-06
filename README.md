@@ -1,5 +1,9 @@
 # Personal Portfolio Website
 
+# Live Site
+
+## Visit the live site at: [https://subham-kumar-portfolio.netlify.app/](https://subham-kumar-portfolio.netlify.app/)
+
 ## Description
 
 This personal portfolio website showcases my professional experience, projects, and technical skills. It serves as a platform for potential employers and clients to learn more about my work, assess my qualifications, and easily get in touch with me. The site features an interactive, dynamic, and responsive design that enhances the user experience.
@@ -13,9 +17,6 @@ This personal portfolio website showcases my professional experience, projects, 
 - **Skill Display**: A dedicated section highlighting my technical skills.
 - **Contact Form**: A form for users to easily reach out for job opportunities or inquiries.
 
-## Live Site
-
-Visit the live site at: [https://subham-kumar-portfolio.netlify.app/](https://subham-kumar-portfolio.netlify.app/)
 
 ## Technologies Used
 
